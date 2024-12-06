@@ -1,0 +1,250 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me",
+            "how does this work",
+            "what should i do"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "AboutIntent",
+          "samples": [
+            "about",
+            "what is this",
+            "tell me about this"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "fileTitle",
+              "type": "FILETITLE"
+            }
+          ],
+          "name": "SelectFileIntent",
+          "samples": [
+            "djrob {fileTitle}",
+            "{fileTitle} with custom music",
+            "start to play {fileTitle} file",
+            "begin to play {fileTitle} file",
+            "play the {fileTitle} sound",
+            "can you start to play {fileTitle} file",
+            "can you begin to play {fileTitle} file",
+            "can you play {fileTitle} file",
+            "start {fileTitle} file",
+            "Try playing {fileTitle} with custom music",
+            "Start {fileTitle} with custom music",
+            "Play {fileTitle} sound",
+            "Play {fileTitle} file",
+            "Play {fileTitle}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GuideIntent",
+          "samples": [
+            "I have a question",
+            "I have some questions",
+            "I am looking for psychology help staff member",
+            "I am looking for security",
+            "I am looking for a psycology help"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "water"
+              }
+            },
+            {
+              "name": {
+                "value": "short"
+              }
+            },
+            {
+              "name": {
+                "value": "sahaptinbear"
+              }
+            },
+            {
+              "name": {
+                "value": "rattlesnake"
+              }
+            },
+            {
+              "name": {
+                "value": "puma"
+              }
+            },
+            {
+              "name": {
+                "value": "goat"
+              }
+            },
+            {
+              "name": {
+                "value": "Gaense"
+              }
+            },
+            {
+              "name": {
+                "value": "elk"
+              }
+            },
+            {
+              "name": {
+                "value": "deer"
+              }
+            },
+            {
+              "name": {
+                "value": "coyotes"
+              }
+            },
+            {
+              "name": {
+                "value": "coyote"
+              }
+            },
+            {
+              "name": {
+                "value": "cougar"
+              }
+            },
+            {
+              "name": {
+                "value": "bobcat"
+              }
+            },
+            {
+              "name": {
+                "value": "bison"
+              }
+            },
+            {
+              "name": {
+                "value": "bighornsheep"
+              }
+            },
+            {
+              "name": {
+                "value": "bear"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "five"
+                ],
+                "value": "5"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "four"
+                ],
+                "value": "4"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "three"
+                ],
+                "value": "3"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "two"
+                ],
+                "value": "2"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "one"
+                ],
+                "value": "1"
+              }
+            }
+          ],
+          "name": "FILETITLE"
+        }
+      ],
+      "invocationName": "custom music",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  }
+}

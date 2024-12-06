@@ -1,0 +1,5 @@
+ask-sdk-core>=1.11.0
+pip
+dropbox
+setuptools
+urllib3<2
